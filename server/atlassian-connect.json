@@ -1,0 +1,26 @@
+{
+  "key": "react-static-connect-app",
+  "name": "React Static App",
+  "baseUrl": "https://your-render-url",
+  "authentication": {
+    "type": "none"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "scopes": ["read", "write"],
+  "modules": {
+    "generalPages": [
+      {
+        "key": "react-page",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "React App"
+        },
+        "url": "/",
+        "conditions": []
+      }
+    ]
+  }
+}
